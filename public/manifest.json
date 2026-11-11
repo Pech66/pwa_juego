@@ -1,0 +1,23 @@
+{
+  "id": "/",
+  "name": "LAB OF MUTANT",
+  "short_name": "Lab Mutant",
+  "description": "Sumérgete en el universo de LAB OF MUTANT: historia, personajes y guía de supervivencia.",
+  "lang": "es",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "prefer_related_applications": false,
+  "orientation": "any",
+  "background_color": "#07090c",
+  "theme_color": "#07090c",
+  "categories": ["games", "entertainment"],
+  "icons": [
+    { "src": "/icons/icon-192x192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512x512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512x512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Mi perfil y diario", "url": "/#/perfil", "icons": [{ "src": "/icons/icon-192x192.png", "sizes": "192x192" }] }
+  ]
+}

@@ -1,0 +1,36 @@
+.profile{padding-top:clamp(110px,14vw,150px);max-width:960px}
+.profile__kicker{font-size:13px;color:var(--mu);letter-spacing:.06em}
+.profile__name input{width:100%;margin-top:6px;padding:4px 0;background:none;border:0;border-bottom:1px solid var(--line);color:var(--tx);font:700 clamp(34px,6vw,64px)/1.1 var(--disp);transition:border-color .3s}
+.profile__name input::placeholder{color:#3a4452}
+.profile__name input:focus{outline:none;border-bottom-color:var(--blue2)}
+.profile__h{margin:56px 0 14px}
+
+/* Estadísticas */
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px}
+.stat{padding:18px}
+.stat span{display:block;font-size:12px;color:var(--mu)}
+.stat b{display:block;margin-top:6px;font:600 28px/1.1 var(--head);font-variant-numeric:tabular-nums}
+
+/* Diario */
+.journal{padding:18px}
+.journal textarea{width:100%;resize:vertical;min-height:90px;padding:14px;background:var(--surf2);border:1px solid #2c3441;border-radius:8px;color:var(--tx);font:400 15px/1.5 var(--body)}
+.journal textarea:focus{outline:none;border-color:var(--blue2)}
+.journal__bar{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:10px}
+.journal__count{color:var(--mu);font-size:12px}
+.journal__list{list-style:none;margin:16px 0 0;padding:0}
+.journal__item{display:flex;gap:12px;align-items:flex-start;justify-content:space-between;padding:14px 0;border-top:1px solid var(--line);animation:toast-in .35s}
+.journal__item time{font-size:12px;color:var(--mu)}
+.journal__item p{white-space:pre-wrap;word-break:break-word;margin-top:2px}
+.journal__empty{padding:14px 0;border-top:1px solid var(--line);color:var(--mu);font-size:14px}
+
+/* Datos */
+.data{padding:18px}
+.data__list{margin:0;display:grid}
+.data__list div{display:grid;grid-template-columns:180px 1fr;gap:12px;padding:10px 0;border-top:1px solid var(--line);font-size:14px}
+.data__list div:first-child{border-top:0}
+.data__list dt{color:var(--mu)}
+.data__list dd{margin:0}
+.data__list .ok{color:#7fd19a}
+.data__list .warn{color:#f0a0a0}
+.data__actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
+@media(max-width:600px){.data__list div{grid-template-columns:1fr;gap:2px}}

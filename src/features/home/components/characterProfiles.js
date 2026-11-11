@@ -1,0 +1,5 @@
+export const CHARACTER_PROFILES = [
+  { id: 'jereth', name: 'Jereth D. Sang', image: '/images/reference/jereth-sheet.webp', role: 'El hijo · Antes del experimento', description: 'Hijo de Vadrik y paciente del Dr. Cooper. Reservado, cariñoso y curioso, su enfermedad lo hace depender cada vez más de su padre. El vínculo entre ambos da sentido a la búsqueda.' },
+  { id: 'vadrik', name: 'Vadrik D. Sang', image: '/images/reference/vadrik-sheet.webp', role: 'El padre · Protagonista', description: 'Persistente y protector, se interna en el centro de investigación con la esperanza de salvar a Jereth. Su investigación revela el engaño de Cooper y la verdadera identidad de la criatura.' },
+  { id: 'cooper', name: 'Dr. Cooper', image: '/images/reference/cooper-sheet.webp', role: 'El científico · El origen del conflicto', description: 'Calculador y manipulador, ofrece una falsa cura para ganarse la confianza de Vadrik. Prioriza su investigación por encima del bienestar de sus pacientes y oculta el propósito del experimento.' }
+];

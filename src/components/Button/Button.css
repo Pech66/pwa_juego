@@ -1,0 +1,28 @@
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:12px 20px;border:1px solid transparent;border-radius:8px;font:500 15px var(--body);color:var(--tx);cursor:pointer;position:relative;overflow:hidden;text-decoration:none;user-select:none;-webkit-tap-highlight-color:transparent;transition:transform .25s,box-shadow .25s,background .3s,border-color .3s}
+.btn__icon{width:18px;height:18px;stroke:currentColor;fill:none;stroke-width:1.9;flex:none;transition:transform .25s}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+
+/* Blanco grande (hero) */
+.btn--light{background:#fff;color:#07090c;padding:14px 34px;font-size:18px}
+.btn--light:hover{transform:translateY(-2px);box-shadow:0 8px 30px #1e86e055}
+.btn--light:hover .btn__icon{transform:translateX(5px)}
+
+/* Azul con destello */
+.btn--primary{background:var(--blue);color:#fff}
+.btn--primary::after{content:"";position:absolute;top:0;bottom:0;width:80px;left:-100px;background:linear-gradient(90deg,transparent,#ffffff30,transparent);transform:skewX(-20deg)}
+.btn--primary:hover{background:#0f67ab}
+.btn--primary:hover::after{animation:btn-shine .9s}
+@keyframes btn-shine{to{left:110%}}
+
+/* Secundario */
+.btn--ghost{background:var(--surf2);border-color:#2c3441}
+.btn--ghost:hover{border-color:#4a5666}
+.btn--ghost.is-on,.btn--ghost:active{background:var(--blue);border-color:var(--blue2)}
+
+/* Acción destructiva */
+.btn--danger{background:transparent;border-color:#5a2a2a;color:#f0a0a0}
+.btn--danger:hover{background:#2a1212;border-color:#e04b4b}
+
+/* Solo icono */
+.btn--icon{padding:8px;background:none;color:var(--mu)}
+.btn--icon:hover{color:#f0a0a0;background:var(--surf2)}

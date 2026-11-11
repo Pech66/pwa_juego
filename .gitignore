@@ -1,0 +1,9 @@
+# Dependencias
+node_modules/
+
+# Carpeta de compilación / producción
+dist/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db

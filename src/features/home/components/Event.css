@@ -1,0 +1,10 @@
+.event{padding:clamp(20px,4vw,42px);display:grid;gap:18px;background:var(--surf);border:1px solid var(--line);border-radius:16px}
+.event h3{font-family:var(--disp);font-size:clamp(22px,4vw,34px)}
+.event p{line-height:1.7;color:var(--mu)}
+.event__tag{font-size:12px;letter-spacing:2px;color:var(--blue2)!important}
+.event dl{display:flex;flex-wrap:wrap;gap:28px}.event dt{font-size:12px;color:var(--mu);margin-bottom:6px}.event dd{margin:0;color:var(--tx)}
+
+
+.event__location{min-width:0;overflow:hidden;border:1px solid var(--line);border-radius:12px;background:var(--surf2)}
+.event__frame{display:block;width:100%;height:clamp(260px,42vw,380px);border:0}
+.event__map-note{padding:12px 16px;font-size:12px;margin:0}
